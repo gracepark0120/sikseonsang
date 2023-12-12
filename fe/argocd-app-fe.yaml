@@ -7,9 +7,9 @@ spec:
   project: default
 
   source:
-    repoURL:  https://gitlab.com/sikseonsang/k8s.git
+    repoURL: https://github.com/gracepark0120/sikseonsang.git
     targetRevision: HEAD
-    path: /fe
+    path: fe
   destination: 
     server: https://kubernetes.default.svc
     namespace: fe
