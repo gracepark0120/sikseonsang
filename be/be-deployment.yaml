@@ -18,7 +18,7 @@ spec:
         app: be
     spec:
       imagePullSecrets:
-      - name: regcred
+      - name: be-regcred
       containers:
       - image: k8s-registry-test.kr.ncr.ntruss.com/fastapi-be:latest
         name: be

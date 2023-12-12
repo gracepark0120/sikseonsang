@@ -18,7 +18,7 @@ spec:
         app: fe
     spec:
       imagePullSecrets:
-      - name: regcred
+      - name: fe-regcred
       containers:
       - image: k8s-registry-test.kr.ncr.ntruss.com/nextjs-fe:latest
         name: fe
